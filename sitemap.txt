@@ -1,0 +1,5 @@
+https://apna.netlify.app
+https://apna.netlify.app/index.html
+https://apna.netlify.app/contact.html
+https://apna.netlify.app/about.html
+https://apna.netlify.app/gallery.html

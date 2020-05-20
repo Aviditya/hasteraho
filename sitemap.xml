@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://apna.netlify.app</loc>
+    <lastmod>2020-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://apna.netlify.app/index.html</loc>
+    <lastmod>2020-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://apna.netlify.app/contact.html</loc>
+    <lastmod>2020-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://apna.netlify.app/about.html</loc>
+    <lastmod>2020-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+    <image:image>
+      <image:loc>https://apna.netlify.app/team1.jpg</image:loc>
+      <image:title>Jane</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://apna.netlify.app/team2.jpg</image:loc>
+      <image:title>Mike</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://apna.netlify.app/team3.jpg</image:loc>
+      <image:title>John</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://apna.netlify.app/gallery.html</loc>
+    <lastmod>2020-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+</urlset>
+<!--<guid value="ff9d8a77-9e6e-4bc0-af8c-d76b4e072ee5" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
