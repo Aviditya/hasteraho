@@ -23,43 +23,27 @@
         <iframe src="https://aviditya.adalo.com/todoly?target=818468a1bfad492599706dafa106d579&params=%7B%7D" width="75%" height="600" style="border:none;">
 </iframe>
         
-      
-     <div class="comment">
-<textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="write a comment......"></textarea>
-<input type="submit" value="Post" onclick="insert()" style="width:20px;" /></form>
-</div>
-<div id="display"></div>
-<script type="text/javascript">
-var titles = [];
-var titleInput = document.getElementById("title");
-var messageBox = document.getElementById("display");
-function Allow()
-{
-if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
-{
-user.title.value="";
-alert("Please Enter only alphabets");
-}
-window.location.reload()
-}
-function insert () {
-titles.push(titleInput.value);
-clearAndShow();
-}
-function clearAndShow ()
-{
-titleInput.value = "";
-messageBox.innerHTML = "";
-messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
-}
+    <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-apna-netlify-app-todoly.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
 </script>
-      
-<!--     <p>You will be redirected within few seconds</p> -->
-<!--     <script>
-        var timer = setTimeout(function() {
-            window.location='https://aviditya.adalo.com/todoly'
-        }, 1000);
-    </script> -->
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
       
 </body>
 </html>
